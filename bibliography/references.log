@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  25 SEP 2013 23:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  25 SEP 2013 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**fancySettings.sty
-(./fancySettings.sty
+**references.bib
+(./references.bib
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
@@ -17,26 +17,30 @@ kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
 , serbianc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, u
 ppersorbian, welsh, loaded.
 
-LaTeX Warning: You have requested package `',
-               but the package provides `fancySettings'.
+! LaTeX Error: Missing \begin{document}.
 
-Package: fancySettings 
-! Undefined control sequence.
-l.18 \setcolumnnumber
-                     {3}
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 @
+     article{Medvedovic,
 ? 
 ! Emergency stop.
-l.18 \setcolumnnumber
-                     {3}
-End of file on the terminal!
+ ...                                              
+                                                  
+l.1 @
+     article{Medvedovic,
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
  
 Here is how much of TeX's memory you used:
  7 strings out of 493481
- 159 string characters out of 3140986
+ 275 string characters out of 3140986
  49445 words of memory out of 3000000
- 3414 multiletter control sequences out of 15000+200000
+ 3413 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 7i,0n,4p,105b,10s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,4p,37b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  25 SEP 2013 13:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.3.31)  26 SEP 2013 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,21 +939,6 @@ File: t1kurier.fd 2008/07/22 v0.995 font definition file for T1/kurier (MW)
 Package: ulem 2012/05/18
 \ULdepth=\dimen175
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip50
-\bibsep=\skip51
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count131
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip52
-\enit@outerparindent=\dimen176
-\enit@toks=\toks40
-\enit@inbox=\box61
-\enitdp@description=\count132
-)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -1161,16 +1146,16 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen177
-\Hy@linkcounter=\count133
-\Hy@pagecounter=\count134
+\@linkdim=\dimen176
+\Hy@linkcounter=\count131
+\Hy@pagecounter=\count132
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count135
+\Hy@SavedSpaceFactor=\count133
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1182,17 +1167,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count136
+\c@Hy@tempcnt=\count134
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen178
-\Fld@menulength=\count137
-\Field@Width=\dimen179
-\Fld@charsize=\dimen180
+\XeTeXLinkMargin=\dimen177
+\Fld@menulength=\count135
+\Field@Width=\dimen178
+\Fld@charsize=\dimen179
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1202,24 +1187,39 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count138
-\c@Item=\count139
-\c@Hfootnote=\count140
+\Hy@abspage=\count136
+\c@Item=\count137
+\c@Hfootnote=\count138
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count141
-\c@bookmark@seq@number=\count142
+\Fld@listcount=\count139
+\c@bookmark@seq@number=\count140
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip53
+\Hy@SectionHShift=\skip50
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count141
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen180
+\enit@toks=\toks40
+\enit@inbox=\box61
+\enitdp@description=\count142
 )
 \c@assumptioni=\count143
 \enitdp@assumption=\count144
@@ -1229,26 +1229,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./ptbiPoster.aux)
 \openout1 = `ptbiPoster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  ABD: EveryShipout initializing macros
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1288,12 +1288,12 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(113.81102pt, 3155.41046pt, 113.81102pt)
-* v-part:(T,H,B)=(113.81102pt, 2165.2549pt, 113.81102pt)
-* \paperwidth=3383.0325pt
-* \paperheight=2392.87694pt
-* \textwidth=3155.41046pt
-* \textheight=2165.2549pt
+* h-part:(L,W,R)=(113.81102pt, 2165.2549pt, 113.81102pt)
+* v-part:(T,H,B)=(113.81102pt, 3155.41046pt, 113.81102pt)
+* \paperwidth=2392.87694pt
+* \paperheight=3383.0325pt
+* \textwidth=2165.2549pt
+* \textheight=3155.41046pt
 * \oddsidemargin=41.54103pt
 * \evensidemargin=41.54103pt
 * \topmargin=41.54103pt
@@ -1314,7 +1314,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1323,39 +1323,39 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./ptbiPoster.out) (./ptbiPoster.out)
 \@outlinefile=\write5
 \openout5 = `ptbiPoster.out'.
 
 LaTeX Font Info:    Try loading font information for OT1+kurierm on input line 
-43.
+44.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/kurier/ot1kurierm.fd
 File: ot1kurierm.fd 2005/10/03 v1.2 font definition file for OT1/kurierm (MW)
 )
 LaTeX Font Info:    Try loading font information for OML+kurier on input line 4
-3.
+4.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/kurier/omlkurier.fd
 File: omlkurier.fd 2008/07/22 v0.995 font definition file for OML/kurier (MW)
 )
 LaTeX Font Info:    Try loading font information for OMS+kurier on input line 4
-3.
+4.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/kurier/omskurier.fd
 File: omskurier.fd 2008/07/22 v0.995 font definition file for OMS/kurier (MW)
 )
 LaTeX Font Info:    Try loading font information for OMX+kurier on input line 4
-3.
+4.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/kurier/omxkurier.fd
 File: omxkurier.fd 2008/07/22 v0.995 font definition file for OMX/kurier (MW)
 )
-LaTeX Font Info:    Try loading font information for T1+cmtl on input line 43.
+LaTeX Font Info:    Try loading font information for T1+cmtl on input line 44.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/cmbright/t1cmtl.fd
 File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
@@ -1364,20 +1364,36 @@ File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
 File: img/logoUniversityOfWarsaw.png Graphic file (type png)
 
 <use img/logoUniversityOfWarsaw.png>
-Package pdftex.def Info: img/logoUniversityOfWarsaw.png used on input line 47.
+Package pdftex.def Info: img/logoUniversityOfWarsaw.png used on input line 48.
 (pdftex.def)             Requested size: 227.62204pt x 252.34595pt.
 
-<img/MH_simululation_10000_steps.png, id=25, 803.0pt x 803.0pt>
+<img/Liang_perspective.png, id=33, 803.0pt x 803.0pt>
+File: img/Liang_perspective.png Graphic file (type png)
+
+<use img/Liang_perspective.png>
+Package pdftex.def Info: img/Liang_perspective.png used on input line 129.
+(pdftex.def)             Requested size: 247.18333pt x 247.18753pt.
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 129--129
+ [] 
+ []
+
+<img/MH_simululation_10000_steps.png, id=34, 803.0pt x 803.0pt>
 File: img/MH_simululation_10000_steps.png Graphic file (type png)
 
 <use img/MH_simululation_10000_steps.png>
 Package pdftex.def Info: img/MH_simululation_10000_steps.png used on input line
- 63.
-(pdftex.def)             Requested size: 802.99805pt x 802.99805pt.
- (./ptbiPoster.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
+ 129.
+(pdftex.def)             Requested size: 185.3875pt x 185.38452pt.
 
-Overfull \hbox (15.78088pt too wide) has occurred while \output is active
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 129--129
+ [] 
+ []
+
+(./ptbiPoster.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+
+Overfull \hbox (65.29169pt too wide) has occurred while \output is active
  [][] 
  []
 
@@ -1386,36 +1402,39 @@ Overfull \hbox (15.78088pt too wide) has occurred while \output is active
 
 Non-PDF special ignored!
 Non-PDF special ignored!{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/upd
-map/pdftex.map} <./img/logoUniversityOfWarsaw.png> <./img/MH_simululation_10000
-_steps.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+map/pdftex.map} <./img/logoUniversityOfWarsaw.png> <./img/Liang_perspective.png
+> <./img/MH_simululation_10000_steps.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./ptbiPoster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `ptbiPoster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 19592 strings out of 493481
- 370989 string characters out of 3140986
- 523569 words of memory out of 3000000
- 22471 multiletter control sequences out of 15000+200000
- 65461 words of font info for 56 fonts, out of 3000000 for 9000
+ 19660 strings out of 493481
+ 372141 string characters out of 3140986
+ 540875 words of memory out of 3000000
+ 22535 multiletter control sequences out of 15000+200000
+ 72443 words of font info for 63 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,20n,75p,470b,1208s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/kurier/ec-kurier-sc.enc}{
-/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/kurier/ec-kurier.enc}{/usr/l
-ocal/texlive/2012/texmf-dist/fonts/enc/dvips/kurier/sy-kurier.enc}{/usr/local/t
-exlive/2012/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
-live/2012/texmf-dist/fonts/type1/nowacki/kurier/kurierb.pfb></usr/local/texlive
-/2012/texmf-dist/fonts/type1/nowacki/kurier/kurierr.pfb></usr/local/texlive/201
-2/texmf-dist/fonts/type1/nowacki/kurier/kurierri.pfb></usr/local/texlive/2012/t
-exmf-dist/fonts/type1/public/cm-super/sfbtl10.pfb>
-Output written on ptbiPoster.pdf (1 page, 343707 bytes).
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/kurier/ex-kurier.enc}{/us
+r/local/texlive/2012/texmf-dist/fonts/enc/dvips/kurier/rm-kurier.enc}{/usr/loca
+l/texlive/2012/texmf-dist/fonts/enc/dvips/kurier/mi-kurier.enc}{/usr/local/texl
+ive/2012/texmf-dist/fonts/enc/dvips/kurier/ec-kurier-sc.enc}{/usr/local/texlive
+/2012/texmf-dist/fonts/enc/dvips/kurier/ec-kurier.enc}{/usr/local/texlive/2012/
+texmf-dist/fonts/enc/dvips/kurier/sy-kurier.enc}{/usr/local/texlive/2012/texmf-
+dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2012/texmf-di
+st/fonts/type1/nowacki/kurier/kurierb.pfb></usr/local/texlive/2012/texmf-dist/f
+onts/type1/nowacki/kurier/kurierr.pfb></usr/local/texlive/2012/texmf-dist/fonts
+/type1/nowacki/kurier/kurierri.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
+pe1/public/cm-super/sfbtl10.pfb>
+Output written on ptbiPoster.pdf (1 page, 456696 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

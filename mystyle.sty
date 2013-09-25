@@ -19,21 +19,43 @@
         \draw[dotted] (todotted.south west) -- (todotted.south east);
     }%
 }%
-	%Advnaced bibliography
-\usepackage{natbib}
 
-\usepackage{enumitem}
 \usepackage{textcomp}
 \usepackage{hyperref}
+\usepackage{graphicx}
 
-\newcommand{\bi}{\begin{itemize}}
-\newcommand{\ei}{\end{itemize}}
+
+%%%%%%%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{natbib}	
+
+%%%%%%%%%%%%%% Colors %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{color}
 \definecolor{adriatico}{rgb}{.2,.40,.90}
 \definecolor{red}{rgb}{.8,.3,.1}
 \definecolor{green}{rgb}{.2,.8,.1}
 \definecolor{brownie}{rgb}{.174,.104,.43}
+
+
+%%%%%%%%%%%%%% Enumeration %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+
+\usepackage{enumitem}
+\newlist{assumption}{enumerate}{1}
+\setlist[assumption,1]{label=\textcolor{brownie}{Assumption No. \arabic*}}
+
+\newlist{strategy}{enumerate}{1}
+\setlist[strategy,1]{label=\textcolor{adriatico}{Strategy No. \arabic*}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\mcmc}{\textsc{MCMC}}
+\newcommand{\GreenMetropolisHastings}{{\color{green}Green}-{\color{brownie}Metropolis}-{\color{green}Hastings}}
+\newcommand{\GMH}{{\color{green}G}{\color{brownie}M}{\color{green}H}}
 
 \newcommand{\pois}[2]{\exp{(-#1)} \frac{ #1^{#2}}{ {#2}! }}
 \newcommand{\poisNewt}[2]{\frac{ #1^{#2}}{ {#2}! }}
@@ -76,10 +98,3 @@
 \newcommand{\tip}{\fbox{\textcolor{red}{Wskazówka}}\,\,\,}
 \newcommand{\dbar}[1]{\overline{\overline{ #1}}}	
 
-\usepackage{graphicx}
-
-\newlist{assumption}{enumerate}{1}
-\setlist[assumption,1]{label=\textcolor{brownie}{Assumption No. \arabic*}}
-
-\newlist{strategy}{enumerate}{1}
-\setlist[strategy,1]{label=\textcolor{adriatico}{Strategy No. \arabic*}}

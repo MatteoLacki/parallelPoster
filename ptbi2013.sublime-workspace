@@ -520,18 +520,26 @@
 	"buffers":
 	[
 		{
-			"file": "ptbiPoster.tex",
+			"file": "tex/fancytikzposter.tex",
 			"settings":
 			{
-				"buffer_size": 16568,
+				"buffer_size": 19123,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "fancytikzposter.sty",
+			"file": "ptbiPoster.tex",
 			"settings":
 			{
-				"buffer_size": 45019,
+				"buffer_size": 3067,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tex/example2.tex",
+			"settings":
+			{
+				"buffer_size": 12191,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +547,31 @@
 			"file": "mystyle.sty",
 			"settings":
 			{
-				"buffer_size": 2036,
+				"buffer_size": 2995,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/tex/theory/theory.tex",
+			"settings":
+			{
+				"buffer_size": 14608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/mystyle.sty",
+			"settings":
+			{
+				"buffer_size": 5969,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bibliography/references.bib",
+			"settings":
+			{
+				"buffer_size": 2300,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,20 +579,12 @@
 			"file": "fancySettings.sty",
 			"settings":
 			{
-				"buffer_size": 2702,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Biology_Group_Seminar/tex/figures.tex",
-			"settings":
-			{
-				"buffer_size": 3882,
+				"buffer_size": 2699,
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Packages/User/pdflatex.sublime-build",
+	"build_system": "Packages/User/latexmk.sublime-build",
 	"command_palette":
 	{
 		"height": 75.0,
@@ -624,16 +648,24 @@
 	},
 	"file_history":
 	[
+		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/bibliography/myBooks.bib",
+		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/bibliography/eccaNoNotes.bst",
+		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/tex/theory/theory.tex",
+		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/bibliography/references.bib",
+		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/parallelTemperingMaster.tex",
+		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/GenomicDisorders2012-prez/poster.tex",
+		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/ptbiPoster.tex",
+		"/home/matteo/.config/sublime-text-2/Packages/User/bibtex.sublime-build",
+		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/fancytikzposter.sty",
+		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Biology_Group_Seminar/tex/figures.tex",
+		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/fancySettings.sty",
 		"/home/matteo/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/matteo/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/fancytikzposter.sty",
-		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/ptbiPoster.tex",
 		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/mystyle.sty",
 		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/fancytikzposter.tex",
 		"/home/matteo/.config/sublime-text-2/Packages/User/latexmk.sublime-build",
 		"/home/matteo/.config/sublime-text-2/Packages/User/pdflatex.sublime-build",
 		"/home/matteo/.config/sublime-text-2/Packages/User/LaTeXTools/LaTeX.sublime-build",
-		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/GenomicDisorders2012-prez/poster.tex",
 		"/home/matteo/Documents/Scienza/scientificProjects/parallelTempering/biologyApplications/ptbi2013/myPoster/tex/example.tex",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/stateSpaces/realTemperedStateSpaces.R",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/simulations/simulations.R",
@@ -644,8 +676,6 @@
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/simulatingMatteo.R",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/targetMeasures/targetMeasures.R",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/tex/motivation/motivation.tex",
-		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/parallelTemperingMaster.tex",
-		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/tex/theory/theory.tex",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/mystyle.sty",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/tex/introduction.tex",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Biology_Group_Seminar/mystyle.sty",
@@ -662,7 +692,6 @@
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/stateSpaces/stateSpaces.R",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/bigSimulationWindows2.R",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/examplarySession.Rout",
-		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/bibliography/myBooks.bib",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/tex/simulationsResults/simulationsResults.tex",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/toDo.txt",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/to+do",
@@ -746,12 +775,7 @@
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/settings/classDetails.sty",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/.gitignore",
 		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/README.md",
-		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/eccaNoNotes.bst",
-		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/misc/ecca_pl.bst",
-		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/tex/summary.tex",
-		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/simulations.bib",
-		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/misc/rblarba.tex",
-		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/misc/matteo_master.tex"
+		"/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/eccaNoNotes.bst"
 	],
 	"find":
 	{
@@ -769,6 +793,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hira",
+			"color",
+			"Baragatti",
+			"Refernces",
+			"Referncec",
+			"cite",
+			"plainblock",
+			"block",
+			"blockwidth",
+			"width",
+			"column number",
+			"start",
 			"fancy",
 			"Block",
 			"Macro",
@@ -884,19 +920,7 @@
 			"simulatedStates",
 			"reduce",
 			"evaluateKS",
-			"sojournDataNotInitialised",
-			"corr",
-			"sqldf",
-			"transpositionHistory",
-			"acceptedRandomWalksNo",
-			"accepted",
-			"wri",
-			"write",
-			"acceptedRandomWalksNo",
-			"save",
-			"acceptedSwapsNo",
-			"save",
-			"meanNo"
+			"sojournDataNotInitialised"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1042,23 +1066,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "ptbiPoster.tex",
+					"file": "tex/fancytikzposter.tex",
 					"settings":
 					{
-						"buffer_size": 16568,
+						"buffer_size": 19123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5754,
-								5754
+								15462,
+								15462
 							]
 						],
 						"settings":
@@ -1066,13 +1090,43 @@
 							"encoding_helper_confidence": 0.813471117865,
 							"encoding_helper_encoding": "UTF-8",
 							"encoding_helper_encoding_sublime": "UTF-8",
-							"spell_check": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2376.0,
+						"translation.y": 7106.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ptbiPoster.tex",
+					"settings":
+					{
+						"buffer_size": 3067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1119,
+								1119
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 0.9690625,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1080,23 +1134,23 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "fancytikzposter.sty",
+					"buffer": 2,
+					"file": "tex/example2.tex",
 					"settings":
 					{
-						"buffer_size": 45019,
+						"buffer_size": 12191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								33303,
-								33303
+								3874,
+								3874
 							]
 						],
 						"settings":
@@ -1104,30 +1158,30 @@
 							"encoding_helper_confidence": 1.0,
 							"encoding_helper_encoding": "UTF-8",
 							"encoding_helper_encoding_sublime": "UTF-8",
-							"syntax": "Packages/LaTeX/TeX.tmLanguage",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 18387.0,
+						"translation.y": 1470.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "mystyle.sty",
 					"settings":
 					{
-						"buffer_size": 2036,
+						"buffer_size": 2995,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								289,
-								289
+								1977,
+								1977
 							]
 						],
 						"settings":
@@ -1138,25 +1192,116 @@
 							"syntax": "Packages/LaTeX/TeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 858.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "fancySettings.sty",
+					"buffer": 4,
+					"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/tex/theory/theory.tex",
 					"settings":
 					{
-						"buffer_size": 2702,
+						"buffer_size": 14608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								593,
-								593
+								1094,
+								1094
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 0.938125,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/master/mystyle.sty",
+					"settings":
+					{
+						"buffer_size": 5969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 0.99,
+							"encoding_helper_encoding": "GB2312",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/LaTeX/TeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "bibliography/references.bib",
+					"settings":
+					{
+						"buffer_size": 2300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "fancySettings.sty",
+					"settings":
+					{
+						"buffer_size": 2699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1660,
+								1660
 							]
 						],
 						"settings":
@@ -1167,37 +1312,7 @@
 							"syntax": "Packages/LaTeX/TeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Biology_Group_Seminar/tex/figures.tex",
-					"settings":
-					{
-						"buffer_size": 3882,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								193,
-								193
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_confidence": 1.0,
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_helper_encoding_sublime": "UTF-8",
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1245,7 +1360,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 241.0
+		"height": 128.0
 	},
 	"replace":
 	{
@@ -1258,23 +1373,35 @@
 		"selected_items":
 		[
 			[
-				"myst",
-				"myPoster/mystyle.sty"
+				"fan",
+				"myPoster/fancySettings.sty"
 			],
 			[
-				"fanc",
-				"myPoster/fancytikzposter.sty"
+				"ref",
+				"myPoster/bibliography/references.bib"
+			],
+			[
+				"ecc",
+				"myPoster/bibliography/eccaNoNotes.bst"
 			],
 			[
 				"ptbi",
 				"myPoster/ptbiPoster.tex"
 			],
 			[
-				"fancy",
-				"myPoster/fancytikzposter.tex"
+				"exam",
+				"myPoster/tex/example2.tex"
 			],
 			[
-				"fan",
+				"fancy",
+				"myPoster/fancytikzposter.sty"
+			],
+			[
+				"myst",
+				"myPoster/mystyle.sty"
+			],
+			[
+				"fanc",
 				"myPoster/fancytikzposter.sty"
 			],
 			[
