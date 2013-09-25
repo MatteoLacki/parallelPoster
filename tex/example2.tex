@@ -1,0 +1,313 @@
+\documentclass{a0poster}
+\usepackage{fancytikzposter} 
+
+\setmargin{2.25}
+\setblockspacing{1.4}
+\setblocktitleheight{1.5}
+\setcolumnnumber{3}
+\usetemplate{3}
+\setheaddrawingheight{14}
+
+
+\usepackage[margin=\margin cm, paperwidth=118.9cm, paperheight=84.1cm]{geometry} 
+
+\usepackage{cmbright}
+\usepackage[math]{kurier}
+\usepackage[T1]{fontenc}
+
+\usepackage{pgfplots}
+\usepackage{tabularx}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\dst}{\displaystyle}
+
+\def\imagetop#1{\vtop{\null\hbox{#1}}}
+
+\title{\huge Effects of locality and mixing in threshold models of social behavior}
+\author{\underline{Andrei R. Akhmetzhanov}$\,{}^{1,2}$, Lee Worden$\,{}^2$, Jonathan Dushoff$\,{}^{2,*}$\\
+  \quad ${}^1$ Inst. of Evolutionary Sciences, University of Montpellier 2, France;\ \ ${}^2$ Dept. of Biology, McMaster University, Canada\\
+  ${}^*$ Corresponding author, \texttt{dushoff@mcmaster.ca}
+}
+
+\begin{document}
+
+%%%%% ---------- the background picture ---------- %%%%%
+\ClearShipoutPicture
+\AddToShipoutPicture{\BackgroundPicture}
+
+\noindent % to have the picture right in the center
+\begin{tikzpicture}
+  \initializesizeandshifts
+  
+  \titleblock[(0,.3)]{60}{1.5}
+  \addlogo[south west]{(-10,4.25)}{10cm}{um2_logo.eps}
+  \addlogo[south west]{(.812\linewidth,1.9)}{7cm}{mac_logo.eps}
+
+  \blocknode{Motivation} {
+
+    % no space!
+    %\begin{center}
+    %  \begin{tabular}[t]{cc}
+    %    \begin{minipage}{0.3\linewidth}
+    %      \includegraphics[width=.9\textwidth]{japanese_women.jpg}
+    %    \end{minipage}
+    %    & 
+    %    \begin{minipage}{0.6\linewidth}
+    %      The Japanese hide their mouths when they laugh, because it's indecent to show the laughter \\
+    %      Grand magasin, Tokyo, 1958
+    %    \end{minipage}
+    %  \end{tabular}
+    %\end{center}
+
+    \coloredbox{colorthree!50!}{Footbinding tradition in China}
+    
+    \begin{center}
+      \begin{tabular}[t]{cc}
+        \begin{minipage}{0.25\linewidth}
+          \includegraphics[width=.9\textwidth]{child-feet-bound.jpg}
+        \end{minipage}
+        & 
+        {\small \begin{minipage}{0.65\linewidth}
+          \bi 
+            \item Appeared in the Sung Dynasty (960-1279) and was widespread for thousands of years
+            \item Caused serious pain and health risks to women (complications included ulceration, paralysis, gangrene)
+            \item Treated women were crippled and largely housebound
+            \item May have begun as patriarchal practice to ``ensure paternity confidence'' and persisted as a simple coordination problem
+            \item The tradition was defended even by women and was transmitted by them in large cities
+          \ei\medskip
+
+          \bi
+            \item Abandoned in a single generation. Ended between 1900 and 1911
+            \item The main unit of spread for the abandonment movement was large cities. It was initiated in Shanghai
+            \item Programme content was: health disadvantages, outside world not practicing, advantages of natural feet
+          \ei
+        \end{minipage}}
+      \end{tabular}
+    \end{center}
+    
+    \coloredbox{colorthree!50!}{Female genital cutting}
+
+    \begin{center}
+      \begin{tabular}[t]{cc}
+        \begin{minipage}{0.25\linewidth}
+          \includegraphics[width=.9\textwidth]{girl_after_FGC.jpg}\\
+          \includegraphics[width=.9\textwidth]{cutter.png}
+
+          \centerline{\tiny \color{blue}[(c) Stephanie Sinclair \& Reuters]}
+        \end{minipage}
+        & 
+        {\small\begin{minipage}{0.65\linewidth} 
+          \bi
+            \item Is widespread in Africa and some Asian countries, being prevalent in some countries -- including Egypt (91\%) and Sudan (89\%) {\color{blue} [UNICEF 2008,2010]}
+            \item 100-130 millions of women, currently living who have undergone FGC, many at a very young age {\color{blue} [WHO 2012]}
+          \ei\medskip
+
+          \bi
+            \item Causes serious pain and health risks to women
+            \item Has been widespread for thousands of years
+            \item May have begun as patriarchal practice to ``ensure paternity confidence'' and persisted as a simple coordination problem
+            \item Can it also go away quickly?
+          \ei
+        \end{minipage}}
+      \end{tabular}
+    \end{center}
+
+    \coloredbox{colorthree!50!}{Social norm as coordination problem}
+
+    \centerline{\begin{minipage}{0.95\linewidth}
+      \innerblock{Social norm}{
+        \bi 
+          \item Individuals wouldn't do it alone 
+          \item They'll do it if enough other people do it 
+        \ei}
+    \end{minipage}}
+  }
+
+  \blocknode{Threshold model for coordination problems} {
+  
+    \coloredbox{colorthree!50!}{Model {\color{blue} [Schelling 1971; Granovetter 1978]}}
+
+    \centerline{\begin{minipage}{0.95\linewidth}
+        \bi 
+          \item Personal beliefs, interests, access to resources, social roles, circumstances, {\it etc.}\ all influence people's tendency to \textbf{adopt} or \textbf{reject} a convention.
+          \item Probably the simplest model for social norm: idealize them all in a \textbf{threshold}.
+          \item adopt if current level of adoption exceeds the threshold; reject if not 
+        \ei
+    \end{minipage}}\medskip
+
+    \coloredbox{colorthree!50!}{Contact networks}
+    
+    \centerline{\begin{minipage}{0.95\linewidth}
+        \bi 
+          \item People aren't influenced equally by everyone everywhere: they have a limited number of contacts
+          \item Consider spread of adoption/rejection on lattices and networks
+          \item With and without mixing
+        \ei
+    \end{minipage}}
+  }
+
+  %%%%%%%%%%%%% NEW COLUMN %%%%%%%%%%%%%%% 
+  \startsecondcolumn 
+
+  %%%%%%%%%% ------------------------------------------ %%%%%%%%%%
+  \blocknode{Fast mixing: analytics} {
+
+  \coloredbox{colorthree!50!}{Infinite neighborhood size} 
+
+  \begin{tabular}[h]{cc}
+    \begin{minipage}{0.65\linewidth}
+      \centerline{\includegraphics[width=.9\linewidth]{granovetter1.pdf}}
+    \end{minipage}
+    &
+    \raisebox{.5cm}{\begin{minipage}{0.3\linewidth}
+      {\small Gaussian PDF $f(x)$ \\ mean $0.65$ and s.d. {\color{blue} \bf 0.15}, {\color{brown} \bf 0.25}\medskip
+
+      Curve on the right: \\ CDF $F(y) = \int^y_{-\infty} f(\xi)\>\mathrm d\xi$\medskip
+
+      Equilibrium points {\color{blue} $y_-<y_*<y_+$} = {\color{green} \bf Green}}
+    \end{minipage}}
+  \end{tabular}\bigskip
+
+  %\coloredbox{colorthree!50!}{Discrete {\it vs.} continuous time}
+
+  \begin{tabular}[h]{cc}
+    \hspace*{-.7cm}\begin{minipage}{0.65\linewidth}
+      \centerline{\includegraphics[width=.9\linewidth]{granovetter2.pdf}}
+    \end{minipage}
+    &
+    \begin{minipage}{0.3\linewidth}
+      {\small {\bf Discrete time}: synchronous updates, {\color{blue} $y(t+1)=F(y(t))$}\medskip
+
+      {\bf Cont. time}: asynchronous updates, {\color{blue} $\mathrm dy/\mathrm dt = F(y)-y$}\medskip}
+    \end{minipage}
+  \end{tabular}\bigskip
+
+  \coloredbox{colorthree!50!}{Finite neighborhood size}
+
+  \begin{center}
+    \begin{tabular}[h]{lc}
+      \begin{minipage}{.3\linewidth}
+        \includegraphics[width=.9\linewidth]{finite_nhood_fast_mixing.pdf}
+      \end{minipage}
+      &
+      \begin{minipage}{.6\linewidth}
+        {\small {\bf Activation curve}: {\color{blue} $F_\mathcal P = \sum_{n=0}^\infty\mathcal P(n)F_n(y)$}, where {\color{blue} $P(n)$} is the probability distribution of connections in the network {\color{blue} $\mathcal P$} and \\
+        \centerline{\color{red} $F_n(y) = \sum\limits_{k=0}^nF\! \left(\frac kn \right)C_n^k y^k(1-y)^{n-k}\,,$}\\
+        where {\color{blue} $C_n^k$} is a binomial coefficient\\[.25cm]
+        {\bf Potential function}: {\color{blue} $V_n(y) = \int^y(F_n(\xi)-\xi)\>\mathrm d\xi$}\\[.3cm]
+        {\bf In Fig}: nhoods = {\bf \color{magenta} 4}, {\bf \color{red} 12}, {\bf \color{green} 24}, {\bf \color{blue} $\infty$}}
+      \end{minipage}
+    \end{tabular}
+  \end{center}
+  }
+
+  \blocknode{Zero mixing: first simulations} {
+    \begin{tabular}[h]{cc}
+      \begin{minipage}{0.4\linewidth}
+        \includegraphics[width=.8\linewidth]{tsp-dynamics.pdf}
+      \end{minipage}
+      &    
+      \hspace*{-1.5cm}{\raisebox{1.5cm}{\begin{minipage}{0.57\linewidth}
+        2d-lattice of size $100\times100$.\smallskip
+
+        Thresholds are normally distributed with the mean {\color{blue} 0.45} and standard deviation {\color{blue} 0.3}. The initial pattern of thresholds and initial states is the same for all simulations shown.\smallskip
+
+        Initial activation level: \color{blue}{15\%}
+      \end{minipage}}}
+    \end{tabular}
+  }
+
+  \blocknode{Different mixing rates} {
+    \begin{center}
+      \begin{tabularx}{\linewidth}{>{\centering}X >{\centering}X >{\centering\arraybackslash}X}
+        {\bf Zero mixing} {\color{blue} $\mu=0$} & {\bf Intermediate mixing} {\color{blue} $\mu\sim1$} & {\bf Fast mixing} {\color{blue} $\mu\gg1$} \\
+        \includegraphics[width=.95\linewidth]{zero-mixing.pdf} & \includegraphics[width=.95\linewidth]{interm-mixing.pdf} & \includegraphics[width=.95\linewidth]{fast-mixing.pdf}\\
+        Metastable equilibria & Slow-manifold (SM) & Activation curve = SM \\
+        ({\small {\it e.g.} {\color{blue} [Rosinberg 2008]}}) & & ({\small Mean-field approximation})
+      \end{tabularx}
+    \end{center}
+  }
+
+  %%%%%%%%%%%%% NEW COLUMN %%%%%%%%%%%%%%% 
+  %% (if column number is 3)
+  \startthirdcolumn
+
+  %%%%%%%%%% ------------------------------------------ %%%%%%%%%%
+  \blocknode{Zero mixing: network structure \& metastability} {
+    \begin{tabular}[h]{cc}
+      \hspace*{2.25cm}{\begin{minipage}{0.32\linewidth}
+        \begin{center}
+          \includegraphics[width=.95\linewidth]{zero-mixing-networks.pdf}
+        \end{center}
+      \end{minipage}}
+      &    
+      \hspace{2.0cm}{\raisebox{1.75cm}{\begin{minipage}{0.65\linewidth}
+        \underline{Same} size: {\color{blue} $800\times800$}, \underline{same} neighborhood: {\bf 8}\\[.4cm]
+
+        {\bf Threshold distribution:} Gaussian with \\ the mean {\color{blue} 0.6} and st.dev. {\color{blue} 0.219}
+      \end{minipage}}}
+    \end{tabular}
+  }
+
+  \blocknode{Intermediate mixing: detailed study} {
+
+     \begin{tabular}[h]{cc}
+      \begin{minipage}{0.47\linewidth}
+        \begin{center}
+          \includegraphics[width=.8\linewidth]{interm-mixing-detailed.pdf}
+
+          {\color{blue} $y_*^\mu$} -- unstable equibilibrium for {\color{blue} $\mu$},\\
+          {\color{blue} $y_\times^\mu$} -- its corresponding initial point 
+        \end{center}
+      \end{minipage}
+      &    
+      \begin{minipage}{0.5\linewidth}
+        \includegraphics[width=.8\linewidth]{prob_to_stay_in_shallow_well.pdf}
+      \end{minipage}
+    \end{tabular}\\[.4cm]
+
+    \centerline{{\bf Bifurcation} at {\color{red} $\bar\mu$} -- the SM becomes tangent}
+
+    \coloredbox{colorthree!50!}{Transition times}
+
+    \begin{tabular}[h]{cc}
+      \begin{minipage}{0.47\linewidth}
+        \hspace*{1.75cm}{\includegraphics[width=.8\linewidth]{exit-times.pdf}}
+      \end{minipage}
+      &    
+      \hspace*{-1.25cm}{\raisebox{.5cm}{\begin{minipage}{0.5\linewidth}
+        {\small 
+        Initial activation: {\bf 100\%}\\[.2cm]
+        Average time to cross {\color{blue} $y_*^\infty$}, which is unstable equilibrium in fast-mixing limit {\color{blue} $\mu\gg1$}}\\[.25cm]
+
+        \centerline{\begin{tabular}[h]{lc}
+          \raisebox{.5cm}{\begin{minipage}{.45\linewidth}
+            Association with\\ potential
+          \end{minipage}}
+          &
+          \begin{minipage}{.3\linewidth}
+            \includegraphics[width=.9\linewidth]{sketch.png}
+          \end{minipage}
+        \end{tabular}}
+      \end{minipage}}}
+    \end{tabular}
+
+  }
+
+  \blocknode{Conclusions} {
+    \bi 
+      \item Outcome can depend sensitively on distribution of thresholds
+      \item \textbf{Neighborhood size} can change the outcome, even with very fast mixing
+      \item Relaxation to global minimum is helped by \textbf{lower mixing rate}
+      \item With finite mixing rates, there is a \textbf{SM}, which suggests a simplifying analysis
+    \ei
+  }
+
+  \blocknode{Acknowledgment} {
+    J.S. McDonnell Foundation, SHARCNET:www.sharcnet.ca
+  }
+  
+  
+\end{tikzpicture}
+
+\end{document}

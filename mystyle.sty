@@ -1,0 +1,85 @@
+\ProvidesPackage{mystyle}
+
+\usepackage{amssymb} %Odpowiadają za narzędzia matematyczne
+\usepackage{amsmath} %Odpowiadają za narzędzia matematyczne
+\usepackage{amsthm}  %Odpowiadają za makra dla twierdzeń, itp
+
+\usepackage[utf8]{inputenc}
+\usepackage[math]{kurier}
+\usepackage[T1]{fontenc}
+
+	%Eliminates the 'Refernces' world in the bibliography 
+\renewcommand{\section}[2]{}
+	
+	%Dashed underlinings
+\usepackage{ulem}
+\newcommand{\udot}[1]{%
+    \tikz[baseline=(todotted.base)]{
+        \node[inner sep=1pt,outer sep=0pt] (todotted) {#1};
+        \draw[dotted] (todotted.south west) -- (todotted.south east);
+    }%
+}%
+	%Advnaced bibliography
+\usepackage{natbib}
+
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage{hyperref}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+
+\usepackage{color}
+\definecolor{adriatico}{rgb}{.2,.40,.90}
+\definecolor{red}{rgb}{.8,.3,.1}
+\definecolor{green}{rgb}{.2,.8,.1}
+\definecolor{brownie}{rgb}{.174,.104,.43}
+
+\newcommand{\pois}[2]{\exp{(-#1)} \frac{ #1^{#2}}{ {#2}! }}
+\newcommand{\poisNewt}[2]{\frac{ #1^{#2}}{ {#2}! }}
+\newcommand{\Pois}[1]{\text{Pois}( #1 )}
+\newcommand{\normal}[2]{\mathcal{N}(#1, #2)}
+\newcommand{\Normal}[2]{\mathcal{N}\Big(#1, #2\Big)}
+
+\newcommand{\cheMat}[2]{\text{\ce{^{#2}{#1}}}}
+
+\newcommand{\ind}[1]{\mathbb{I}_{ #1 }}
+\newcommand{\indA}[1]{\mathbb{I}_{\{ A = #1 \}}}
+\newcommand{\indAA}[2]{\mathbb{I}_{\{ A_{#1} = #2 \}}}
+
+\newcommand{\aaa}{\mathbb{A}}
+\newcommand{\sss}{\mathbb{S}}
+\newcommand{\xxx}{\mathbb{X}}
+\newcommand{\iii}{\mathbb{I}}
+\newcommand{\nnn}{\mathbb{N}}
+\newcommand{\ppp}{\mathbb{P}}
+\newcommand{\sprod}[2]{\langle #1|#2 \rangle}
+
+
+\newcommand{\yy}{\mathfrak{y}}
+\newcommand{\pp}{\mathbf{p}}
+\newcommand{\tran}{\mathrm{t}}
+\newcommand{\nn}{\mathrm{N}}
+\newcommand{\kk}{\mathrm{K}}
+\newcommand{\mm}{\mathrm{M}}
+\newcommand{\ii}{\mathrm{I}}
+\newcommand{\jj}{\mathrm{J}}
+
+\newcommand{\integer}{\mathbb{N}}
+\newcommand{\real}{\mathbb{R}}
+\newcommand{\prob}{\mathcal{P}}	
+\newcommand{\expect}{\mathcal{E}}
+\newcommand{\cov}{\mathcal{COV}}
+\newcommand{\var}{\mathcal{D}^2}
+
+\newcommand{\fracc}[2]{\Big( {#1 \over #2} \Big)}
+\newcommand{\tip}{\fbox{\textcolor{red}{Wskazówka}}\,\,\,}
+\newcommand{\dbar}[1]{\overline{\overline{ #1}}}	
+
+\usepackage{graphicx}
+
+\newlist{assumption}{enumerate}{1}
+\setlist[assumption,1]{label=\textcolor{brownie}{Assumption No. \arabic*}}
+
+\newlist{strategy}{enumerate}{1}
+\setlist[strategy,1]{label=\textcolor{adriatico}{Strategy No. \arabic*}}

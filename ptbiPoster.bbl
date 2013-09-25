@@ -1,0 +1,10 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Medvedovic \textit{et~al.}(2004)Medvedovic, Yeung and
+  Bumgarner}]{Medvedovic}
+\textsc{Medvedovic, M.}, \textsc{Yeung, K.} and \textsc{Bumgarner, R.} (2004).
+  Bayesian mixture model based clustering of replicated microarray data.
+  \textit{Bioinformatics}, \textbf{20}~(8), 1222--1232.
+
+\end{thebibliography}

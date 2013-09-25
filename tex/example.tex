@@ -1,0 +1,261 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX poster template
+% Created by Nathaniel Johnston
+% August 2009
+% http://www.nathanieljohnston.com/2009/08/latex-poster-template/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[final]{beamer}
+\usepackage[orientation=portrait,size=a0]{beamerposter}
+\usepackage{graphicx}			% allows us to import images
+
+%-----------------------------------------------------------
+% Define the column width and poster size
+% To set effective sepwid, onecolwid and twocolwid values, first choose how many columns you want and how much separation you want between columns
+% The separation I chose is 0.024 and I want 4 columns
+% Then set onecolwid to be (1-(4+1)*0.024)/4 = 0.22
+% Set twocolwid to be 2*onecolwid + sepwid = 0.464
+%-----------------------------------------------------------
+
+\newlength{\sepwid}
+\newlength{\onecolwid}
+\newlength{\twocolwid}
+\newlength{\threecolwid}
+% \setlength{\paperwidth}{36in}
+% \setlength{\paperheight}{48in}
+\setlength{\sepwid}{0.024\paperwidth}
+\setlength{\onecolwid}{0.31\paperwidth}
+\setlength{\twocolwid}{0.64\paperwidth}
+% \setlength{\threecolwid}{0.708\paperwidth}
+\setlength{\topmargin}{-0.5in}
+\usetheme{confposter}
+\usepackage{exscale}
+
+%-----------------------------------------------------------
+% The next part fixes a problem with figure numbering. Thanks Nishan!
+% When including a figure in your poster, be sure that the commands are typed in the following order:
+% \begin{figure}
+% \includegraphics[...]{...}
+% \caption{...}
+% \end{figure}
+% That is, put the \caption after the \includegraphics
+%-----------------------------------------------------------
+
+\usecaptiontemplate{
+\small
+\structure{\insertcaptionname~\insertcaptionnumber:}
+\insertcaption}
+
+%-----------------------------------------------------------
+% Define colours (see beamerthemeconfposter.sty to change these colour definitions)
+%-----------------------------------------------------------
+
+\setbeamercolor{block title}{fg=ngreen,bg=white}
+\setbeamercolor{block body}{fg=black,bg=white}
+\setbeamercolor{block alerted title}{fg=white,bg=dblue!70}
+\setbeamercolor{block alerted body}{fg=black,bg=dblue!10}
+
+%-----------------------------------------------------------
+% Name and authors of poster/paper/research
+%-----------------------------------------------------------
+% \begin{columns}
+% \begin{column}{\twocolwid}
+ 
+\title{Inverted low-copy repeats and genome instability \\- a genome-wide analysis}
+\author{Piotr Dittwald$^{1,2,*}$, Tomasz Gambin$^{3,*}$, Claudia Gonzaga-Jauregui$^4$, Claudia M.B. Carvalho$^4$, James R. Lupski$^{4,5,6}$, Pawel Stankiewicz$^{4,7}$, Anna Gambin$^{1,8}$}
+\institute{$^1$Institute of Informatics, University of Warsaw, Warsaw, Poland; $^2$College of Inter-Faculty Individual Studies in Mathematics and Natural Sciences, University of Warsaw, Warsaw, Poland; $^3$Institute of Computer Science, Warsaw University of Technology, Warsaw, Poland;
+ $^4$Dept of Molecular and Human Genetics; $^5$Pediatrics, Baylor College of Medicine, Houston, TX; $^6$Texas Children's Hospital, Houston, TX; $^7$Dept of Medical Genetics, Institute of Mother and Child, Warsaw, Poland; $^8$Mossakowski Medical Research Centre, Polish Academy of Sciences, Warsaw, Poland.
+$^{*}$contributed equally to this work}
+% \end{column}
+% \begin{column}{\onecolwid}
+% 	\begin{center}
+\titlegraphic{
+             \includegraphics[width=2.1in]{new-images/uwlogo.png}    
+             \includegraphics[width=3in]{new-images/bcm-logo.jpg}\\				
+ 		\includegraphics[width=2.2in]{new-images/pw-logo.png}
+		\includegraphics[width=3.5in]{new-images/imid3.png}\\
+ 	        }
+  
+	
+% % 	\end{center}
+% % \end{column}
+% \end{columns}
+
+
+%-----------------------------------------------------------
+% Start the poster itself
+%-----------------------------------------------------------
+
+\begin{document}
+\begin{frame}[t]
+  \begin{columns}[t]
+    \begin{column}{\sepwid}\end{column}			% empty spacer column
+    \begin{column}{\onecolwid}
+
+    \begin{block}{Introduction}
+     To date, about 40 unstable genomic loci flanked by directly oriented LCRs have been associated with recurrent deletions and reciprocal duplications associated with genomic disorders. Inverse paralogous LCRs can also cause genome instability both by mediating balanced inversions of the intervening genomic intervals (IP-LCRs) and by stimulating complex DUP-TRP/INV-DUP rearrangements (DTIP-LCRs). 
+     Here, we report the genome-wide distribution of two interesting classes of inverse paralogous LCRs and discuss their role in genomic instability and potential for causing human disease traits.
+    \end{block}
+\vskip2ex
+
+  \setbeamercolor{block alerted title}{fg=white,bg=Rhodamine}	% frame color
+           \setbeamercolor{block alerted body}{fg=black,bg=white}		% body color
+
+  \begin{alertblock}{IP-LCRs}
+\begin{figure}
+\includegraphics[width= 0.9\textwidth]{new-images/NAHR-inv2.png}\\
+\tiny{NAHR mechanism can mediate both intrachromosal (left) and intrachromatid (right) inversion rearrangements. Source: \cite{stankiewicz}.}
+\end{figure}
+The segmental duplication track in the UCSC browser has been widely accepted as a valuable database of LCRs in the human genome. 
+From this set, we have selected the subset of Inversely oriented Paralogous LCRs (IP-LCRs) that satisfy the following criteria: 
+\begin{itemize}
+ \item fraction matching (fracMatch) $>$ 97\%,
+ \item distance between elements $<$ 10 Mb,
+ \item length of an element $>$ 1 kb,  
+ \item 917 IP-LCRs detected.
+\end{itemize}
+\vskip1ex
+  Our objective was to investigate the intersection of the IP-LCRs and overlapping genes that could be disrupted by genomic inversions via NAHR. 
+We have used two complementary approaches: a genome-wide analysis of the apparent benign structural variants identified in healthy control 
+samples stored in the Database of Genomic Variants (DGV), and a more detailed analysis based on the known inversion rearrangements associated 
+with human diseases~\cite{antonacci}. 
+      \end{alertblock}
+
+
+\setbeamercolor{block alerted title}{fg=white,bg=Mulberry}
+
+
+ 
+
+
+
+	\begin{alertblock}{DTIP-LCRs}  
+\includegraphics[width= 0.95\textwidth]{new-images/DTIP2.png}\\
+\begin{figure}
+\tiny{Schematic proposal model of DUP-TRP/INV-DUP rearrangement formation. Inverted repeats (DTIP-LCRs)  that mediates  formation of such rearrangements were named (DTIP-LCRs) and are represented by \textcolor{Brown}{brown} arrows. \textcolor{blue}{Blue} arrow represents triplicated segments and \textcolor{red}{red} arrows represent duplicated segments. Source: \cite{claudia}} 
+\end{figure}
+
+	      \begin{itemize} 
+	      \item 100\% identical repeated sequences of inverted orientation and minimum length of 145 bp identified and used as seeds to extend and merged into larger regions of $>$ 98\% identity,
+	      \item obtained regions were then filtered by size to those longer that 820 bp and separated by 30 kb and up to 350 kb,
+	      consistent with previous experimental observations~\cite{claudia},             
+	      \item 1385 DTIP-LCRs obtained 
+	      \end{itemize}
+\vskip1ex
+The DTIP-LCRs potentially mediate the formation of complex genomic structures consisting of DUP-TRP/INV-DUP through a replication-based mechanism.
+          \end{alertblock}        
+
+
+     
+    \end{column}
+
+    \begin{column}{\sepwid}\end{column}			% empty spacer column
+    \begin{column}{\twocolwid}					  % create a three-column-wide column and then we will split it up later
+
+\begin{figure}  
+\small{Figure~1: Known pathogenic and benign inversions (above chromosomes) and IP-LCRs together with DTIP-LCRs (below chromosomes). IP-LCRs were selected for three threshold levels of fraction matching: 97\%, 95\% and 90\%.} \\
+\includegraphics[width=\twocolwid]{new-images/ideogram_inv_lcrs_new.png}\\
+\small{Figure~2: (left) IP-LCRs (fraction matching above .97) on the whole human genome and
+(right) on chromosome X. Light-dark color scale shows the ascending fraction matching between IP-LCRs.}
+\centering  
+ \includegraphics[width=.4 \textwidth]{new-images/all_chromosomes.png}
+ \includegraphics[width=.4 \textwidth]{new-images/chrX.png} 
+ \label{fig:nitrogen_lipids}
+\end{figure}
+
+
+
+
+ \begin{table}[t!]
+ \begin{center}
+ \label{tab:binomial}
+\small{Table~1: Known disease genes overlapping with IP-LCRs}
+\begin{tiny}
+ \begin{tabular}{|p{0.05\paperwidth}p{0.14\paperwidth}p{0.03\paperwidth}p{0.06\paperwidth}p{0.05\paperwidth}p{0.2\paperwidth}p{0.03\paperwidth}p{0.03\paperwidth}|}
+\hline
+\textbf{Gene}&\textbf{Gene name}&\textbf{Location}&\textbf{Intersection~with LCR (LCR size) (kb)}&\textbf{LCR identity \%}&\textbf{Disaese}&\textbf{Inheritance}&\textbf{OMIM}\\%\hline
+\textit{ABCC6}&ATP-binding cassette, sub-family C (CFTR/MRP), member 6 &16p13.11&25(128)&99.36&Pseudoxanthoma elasticum&AR&264800\\%\hline
+\textit{CFC1}&Cripto, FRL-1, cryptic family 1&2q21.1&7(229) &99.27&Visceral heterotaxy-2  (HTX2) (a congenital heart disease; identified in patients with transposition of the great arteries and double-outlet right ventricle)&AD&605376\\%\hline
+\textit{CHRNA7}&Cholinergic receptor, nicotinic, alpha 7 (neuronal) &15q13.3&17 (307)&99.62&Chromosome 15q13.3 deletion syndrome&AD&612001\\%\hline
+\textit{CNTNAP3}&Contactin associated protein-like 3 &9p13.1&5(208);55(115); 130(155);64(64);22(24)&99.29; 98.73; 98.49; 98.3; 98.2&Candidate gene for bipolar disorder  and bladder exstrophy&?&N/A\\%\hline
+\textit{DPP6}&Dipeptidyl-peptidase 6 &7q36.2 &105(105); 110(110)&98.4; 98.42&Paroxysmal familial ventricular fibrillation 2 (VF2)&AD&612956\\%\hline
+\textit{DUOX2}&Dual oxidase 2 &15q21.1&1 (1)&97.46&Congenital hypothyroidism, Thyroid Dyshormonogenesis 6 (TDH6)&AR&607200\\%\hline
+\textit{GTF2I}&General transcription factor IIi &7q11.23&33 (144)&99.67&Williams-Beuren syndrome critical region, responsible for autism spectrum disorders&AD&194050\\%\hline
+\textit{HERC2}&HECT and RLD domain containing E3 ubiquitin protein ligase 2 &15q13.1&47(47); 34(34); 6(103)&97.31; 97.07; 99.61&Juvenile development and fertility 2 (jdf2), skin/hair/eye pigmentation&AR?&227220\\%\hline
+\textit{KRT81} and \textit{KRT86}&Keratin 81  and keratin 86&12q13.13  &4(4)&97.72&Monilethrix&AD&158000\\%\hline
+\textit{OCLN}&Occludin &5q13.2 &24(79)&99.67&Band-like calcification with simplified gyration and polymicrogyria (BLCPMG)&AR&251290\\%\hline
+\textit{RANBP2}&RAN binding protein 2 &2q12.3&52(52); 52(52); 52(52)&97.59; 97.62; 97.67&Acute necrotizing encephalopathy (ANE1)&AD&608033\\%\hline
+\textit{RHCE} and \textit{RHD}&Rh blood group, CcEe antigens &1p36.11&58(63)&98.07&RH-null disease&AD&268150\\%\hline
+\textit{SORD}&Sorbitol dehydrogenase&15q21.1&18(18); 25(17)&97.31; 97.86&Deficiency in a family with congenital cataracts&N/A&N/A\\%\hline
+\textit{SPECC1L}&Sperm antigen with calponin homology and coiled-coil domains 1-like &22q11.23&5(5)&97.06&Oblique facial clefting-1 (OBLFC1)&AD&600251\\%\hline
+\textit{STAT5B}&Signal transducer and activator of transcription 5B&17q21.2&4(76)&97.4&Growth hormone insensitivity with immunodeficiency&AR&245590\\%\hline
+\textit{TAF1}&TAF1 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 250kDa)&Xq13.1&3(3)&99.84& Dystonia 3, Torsion, X-linked (DYT3)&X-linked&314250\\%\hline
+\textit{TMLHE}&Trimethyllysine hydroxylase, epsilon&Xq28 &16(51)&99.92&new error of carnitine metabolism&X-linked&N/A\\\hline
+ \end{tabular}
+\end{tiny}
+ \end{center}
+ \end{table}
+
+
+
+
+% \end{block}
+
+
+
+
+      \begin{columns}[t,totalwidth=\twocolwid]	% split up that three-column-wide column
+
+        \begin{column}{\onecolwid}
+
+
+\begin{block}{Genes potentially disrupted by IP-LCR-mediated inversions}  
+	\begin{itemize} 
+	\item 797 (96 on the X chromosome) genes were identified as intersecting with IP-LCRs
+	\item Among them, there are 24 genes considered as dosage sensitive by~\cite{huang}: 
+\textit{ABCC6}, \textit{AFF3}, \textit{BMP8A}, \textit{BMP8B}, \textit{CFC1}, \textit{CHRNA7}, 
+\textit{CNTNAP3}, \textit{CRHR1}, \textit{DPP6}, \textit{ERBB4}, \textit{F8}, 
+\textit{FOXO3B}, \textit{GLG1}, \textit{GPR89A}, \textit{GTF2I}, \textit{HERC2}, \textit{HIC2}, \textit{IDS}, 
+\textit{IKBKG}, \textit{NCF1}, \textit{PMS2}, \textit{STAT5A}, \textit{STAT5B}, and \textit{TMLHE}
+	\item 18 genes have been associated with different diseases or syndromes (see Table~1)
+	\end{itemize}
+	\end{block}
+
+        \end{column}
+        \begin{column}{\onecolwid}
+
+
+	\begin{block}{Genes vs. DTIP-LCRs}  
+	\begin{itemize} 
+	\item 5,338 genes located upstream, downstream, or in between of a pair of inverted tracks and up to 1 Mb upstream or downstream, based on experimental observations of DUP-TRP/INV-DUP rearrangements 
+        \item 1,394 disease associated genes that are are at risk of undergoing copy-number gain as a consequence of formation of a DUP-TRP/INV-DUP kind of rearrangement 
+	\end{itemize}
+	\end{block}
+
+
+          \begin{block}{References}
+%             Some references and a graphic to show you how it's done:
+            
+		        \tiny{\begin{thebibliography}{99}
+\bibitem{stankiewicz} Stankiewicz P. et al., 2002. Genome architecture, rearrangements and genomic disorders, 
+Trends in Genetics, 18(2):74-82.
+
+\bibitem{antonacci} Antonacci F. et al., 2009.
+Characterization of six human disease-associated inversion polymorphisms. Human Molecular Genetics, 18(14):2555-2566. 
+\bibitem{claudia} Carvalho C.M. et al., 2011. 
+Inverted genomic segments and complex triplication rearrangements are mediated by inverted repeats in the human genome., 
+Nature Genetics, 43(11):1074-81.
+\bibitem{huang} Huang N. et al., 2010. Characterising and Predicting Haploinsufficiency in the human genome. PLoS Genetics, 6: e1001154. 
+
+		        \end{thebibliography}}
+% 			      \vspace{0.75in}
+			     
+		      \end{block}
+        \end{column}
+      \end{columns}
+      \vskip2.5ex
+    \end{column}
+  \begin{column}{\sepwid}\end{column}			% empty spacer column
+ \end{columns}
+\end{frame}
+\end{document}
