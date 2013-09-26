@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Baragatti \textit{et~al.}(2013)Baragatti, Grimaud and
@@ -27,5 +27,9 @@
 \textsc{Stingo, F.} and \textsc{M., V.} (2010). \textit{{B}ayesian Statistics
   9}, Oxford University Press, chap. Bayesian Models for Variable Selection
   that Incorporate Biological Information.
+
+\bibitem[{Swendsen and Wang(1986)}]{RobertSwendsen}
+\textsc{Swendsen, R.} and \textsc{Wang, J.-S.} (1986). \textit{Replica Monte
+  Carlo Simulation of Spin-Glasses, Parallel Tempering}.
 
 \end{thebibliography}

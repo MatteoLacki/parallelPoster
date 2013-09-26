@@ -4,45 +4,46 @@ The style file: bibliography/eccaNoNotes.bst
 Database file #1: bibliography/references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--can't use both author and editor fields in STING2010
-You've used 5 entries,
+Warning--missing publisher in RobertSwendsen
+You've used 6 entries,
             3207 wiz_defined-function locations,
-            708 strings with 5849 characters,
-and the built_in function-call counts, 3809 in all, are:
-= -- 297
-> -- 230
-< -- 3
-+ -- 104
-- -- 48
-* -- 329
-:= -- 608
-add.period$ -- 14
-call.type$ -- 5
-change.case$ -- 35
-chr.to.int$ -- 5
-cite$ -- 6
-duplicate$ -- 294
-empty$ -- 217
-format.name$ -- 51
-if$ -- 678
+            714 strings with 6005 characters,
+and the built_in function-call counts, 4458 in all, are:
+= -- 347
+> -- 272
+< -- 4
++ -- 123
+- -- 56
+* -- 383
+:= -- 716
+add.period$ -- 16
+call.type$ -- 6
+change.case$ -- 41
+chr.to.int$ -- 6
+cite$ -- 8
+duplicate$ -- 342
+empty$ -- 251
+format.name$ -- 62
+if$ -- 791
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 45
-newline$ -- 19
-num.names$ -- 20
-pop$ -- 91
+missing$ -- 52
+newline$ -- 22
+num.names$ -- 24
+pop$ -- 109
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 38
 quote$ -- 0
-skip$ -- 135
+skip$ -- 162
 stack$ -- 0
-substring$ -- 166
-swap$ -- 191
-text.length$ -- 63
+substring$ -- 188
+swap$ -- 221
+text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 39
-warning$ -- 1
-while$ -- 23
+type$ -- 45
+warning$ -- 2
+while$ -- 27
 width$ -- 0
-write$ -- 57
-(There was 1 warning)
+write$ -- 66
+(There were 2 warnings)
