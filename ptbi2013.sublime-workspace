@@ -523,7 +523,7 @@
 			"file": "ptbiPoster.tex",
 			"settings":
 			{
-				"buffer_size": 14948,
+				"buffer_size": 17849,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "tex/fancytikzposter.tex",
 			"settings":
 			{
-				"buffer_size": 19123,
+				"buffer_size": 19125,
 				"line_ending": "Unix"
 			}
 		},
@@ -540,6 +540,46 @@
 			"settings":
 			{
 				"buffer_size": 12191,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "  \\begin{tabular}[h]{cc}\n    \\begin{minipage}{0.3\\linewidth}\n      $$ \n        p(i,j|x) \\propto \n        \\Big( \\frac{\\pi (x_j)}{\\pi( x_i )} \\wedge \n        \\frac{\\pi ( x_i)}{\\pi( x_j )} \\Big)^{\\beta_i - \\beta_j}  \n      $$\n    \\end{minipage}\n    &\n    \\begin{minipage}{0.6\\linewidth}\n      {\\small\n        \\textsc{Strategy} softens a bit the requirement that $\\pi(x_j) \\approx \\pi (x_i)$ for similarly tempered coordinates, i.e. where $\\beta_i - \\beta_j \\approx 0$, making swaps between adjacent chains more probable\n      }\n    \\end{minipage}\n  \\end{tabular}\n  \\begin{tabular}[h]{cc}\n    \\begin{minipage}{0.6\\linewidth}\n      {\\small\n        \\textsc{Strategy} 4 generalises the last one - $\\rho$ might be any distance between coordinates ({\\it e.g.} euclidean), so as to favour more distant choices and better mixing\n      }\n    \\end{minipage}\n    &\n    \\begin{minipage}{0.3\\linewidth}\n      $$ p(i,j|x) \\propto \\Big( \\frac{\\pi (x_j)}{\\pi( x_i )} \\wedge \\frac{\\pi (x_i)}{\\pi( x_j )} \\Big)^\\frac{\\beta_i - \\beta_j}{1 + \\rho(x_i, x_j)} $$\n    \\end{minipage}\n  \\end{tabular}",
+			"settings":
+			{
+				"buffer_size": 1072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/strategies/stateIndependentStrategies.R",
+			"settings":
+			{
+				"buffer_size": 804,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/strategies/strategies.R",
+			"settings":
+			{
+				"buffer_size": 786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/stateSpaces/realTemperedStateSpaces.R",
+			"settings":
+			{
+				"buffer_size": 8331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/algorithms/parallelTemperings.R",
+			"settings":
+			{
+				"buffer_size": 15351,
 				"line_ending": "Unix"
 			}
 		},
@@ -1042,15 +1082,15 @@
 					"file": "ptbiPoster.tex",
 					"settings":
 					{
-						"buffer_size": 14948,
+						"buffer_size": 17849,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9350,
-								9350
+								33,
+								34
 							]
 						],
 						"settings":
@@ -1064,7 +1104,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4012.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1072,7 +1112,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1080,15 +1120,15 @@
 					"file": "tex/fancytikzposter.tex",
 					"settings":
 					{
-						"buffer_size": 19123,
+						"buffer_size": 19125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								706,
-								706
+								6914,
+								6914
 							]
 						],
 						"settings":
@@ -1101,7 +1141,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 280.0,
+						"translation.y": 3332.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1118,8 +1158,8 @@
 						"selection":
 						[
 							[
-								5656,
-								5656
+								5442,
+								5442
 							]
 						],
 						"settings":
@@ -1139,6 +1179,154 @@
 				},
 				{
 					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 1072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/strategies/stateIndependentStrategies.R",
+					"settings":
+					{
+						"buffer_size": 804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/R/R.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/strategies/strategies.R",
+					"settings":
+					{
+						"buffer_size": 786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/R/R.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/stateSpaces/realTemperedStateSpaces.R",
+					"settings":
+					{
+						"buffer_size": 8331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4385,
+								4385
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/R/R.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2669.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/matteo/Documents/Scienza/Laurea_di_Matematica/Implementation/algorithms/parallelTemperings.R",
+					"settings":
+					{
+						"buffer_size": 15351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1548,
+								1548
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/R/R.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 935.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "mystyle.sty",
 					"settings":
 					{
